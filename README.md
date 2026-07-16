@@ -15,10 +15,12 @@ This is an ongoing project — currently supports a working subset of RV32I, wit
 | beq | B-type | imm[12,10:5] \| rs2 \| rs1 \| funct3 \| imm[4:1,11] \| opcode |
 
 ## Repo Structure
+```
 ├── source_files/          # Processor modules — datapath, control unit, ALU, register file, PC, etc.
 ├── test_benches/           # SystemVerilog testbenches for individual units and the full wrapper
 ├── assembly_test_code.s        # Sample RISC-V assembly program used for verification
 └── ripes_verification.png  # Verification screenshot
+```
 
 ## Verification
 
